@@ -1,0 +1,20 @@
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 10px;
+  gap: 12px;
+  border-radius: 8px;
+
+  .value {
+    background-color: #6a0bff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: white;
+    min-width: 15px;
+  }
+}

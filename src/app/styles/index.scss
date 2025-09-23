@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+/* сброс для всех элементов */
+* {
+  margin: 0; /* убирает внешние отступы */
+  padding: 0; /* убирает внутренние отступы */
+  box-sizing: border-box; /* учитывает padding и border в width/height */
+  font-family: 'Manrope', sans-serif; /* шрифт по умолчанию */
+  body {
+    background-color: #f4f4f4;
+  }
+}

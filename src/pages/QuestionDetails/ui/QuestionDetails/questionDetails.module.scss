@@ -1,0 +1,41 @@
+.wrapper {
+  min-height: 100vh;
+  user-select: none;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-height: min-content;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+  min-width: 392px;
+  max-width: 392px;
+}
+
+.navigation {
+  display: flex;
+  gap: 8px;
+  font-weight: 600;
+  margin-block: 24px;
+  margin-right: auto;
+}
+
+.largeText {
+  font-size: 16px;
+}
