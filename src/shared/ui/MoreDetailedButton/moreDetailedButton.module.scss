@@ -1,0 +1,21 @@
+.container {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  line-height: 110%;
+  background-color: transparent;
+  border: none;
+
+  &:hover span {
+    text-decoration: underline;
+  }
+}
+
+.text {
+  color: #6a0bff;
+}
+
+.largeText {
+  font-size: 16px;
+  color: #6a0bff;
+}

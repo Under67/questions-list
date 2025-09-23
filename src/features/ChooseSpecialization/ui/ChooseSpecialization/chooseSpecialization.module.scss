@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.title {
+  color: #474747;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list-items {
+  width: 100%;
+}
+
+.item {
+  list-style: none;
+  display: inline-block;
+  padding-block-end: 8px;
+  padding-inline-end: 8px;
+}

@@ -1,0 +1,73 @@
+.item {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 16px 0;
+  user-select: none;
+  list-style: none;
+  line-height: 1.5;
+  min-width: 700px;
+
+  & .bullet {
+    width: 8px;
+    height: 8px;
+    background-color: #5533ff;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+
+  & .titleContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  & .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  & .title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+  }
+
+  & .arrow {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s;
+  }
+
+  & .rotated {
+    transform: rotate(-180deg);
+  }
+
+  & .content {
+    overflow: hidden;
+    transition:
+      height 0.3s ease,
+      opacity 0.3s ease;
+  }
+
+  & .score {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-block-start: 24px;
+  }
+
+  & .shortAnswer {
+    padding-block-start: 24px;
+    flex: 1;
+  }
+
+  & .navigation {
+    display: flex;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-block-start: 24px;
+    margin-left: auto;
+  }
+}

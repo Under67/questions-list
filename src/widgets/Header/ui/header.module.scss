@@ -1,0 +1,61 @@
+.header {
+  background-color: white;
+  width: 100%;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-block: 8px;
+  }
+
+  &__left,
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  &__button-login {
+    font-weight: 600;
+    color: #6a0bff;
+    font-size: 16px;
+  }
+
+  &__button-registration {
+    background-color: #6a0bff;
+    color: white;
+    width: 170px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 18px;
+  }
+}
+
+.header__link--disabled {
+  pointer-events: none;
+  cursor: default;
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.title {
+  color: #474747;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.buttonSkeleton {
+  width: 75px;
+  height: 41px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+.moreDetailSkeleton {
+  width: 120px;
+  height: 32px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-top: 16px;
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}

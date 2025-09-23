@@ -1,0 +1,24 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  border-bottom: 1px solid #e8e8e8;
+  padding-block-end: 24px;
+}
+
+.reset-button {
+  padding: 0 32px;
+  background-color: transparent;
+  border: 1px solid #6a0bff;
+  color: #6a0bff;
+  align-self: flex-start;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 16px;
+}

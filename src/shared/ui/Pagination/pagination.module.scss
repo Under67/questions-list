@@ -1,0 +1,40 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  gap: 4px;
+}
+
+.arrow-button,
+.page-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-button {
+  padding-inline: 6px;
+}
+
+.arrow-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.page-button {
+  height: 25px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 120%;
+  padding: 6px;
+}
+
+.page-button:disabled {
+  background-color: #6a0bff;
+  color: white;
+  border-radius: 2px;
+}
