@@ -5,6 +5,7 @@ import { useGetQuestionByIdQuery } from '@/entities/question';
 import QuestionInfo from '../QuestionInfo/QuestionInfo';
 import { MoreDetailedButton } from '@/shared/ui';
 import { arrowLeft } from '@/shared/assets';
+import QuestionDetailsSkeleton from '../QuestionDetailsSkeleton/QuestionDetailsSkeleton';
 
 function QuestionDetails() {
   const { id } = useParams();
@@ -20,7 +21,7 @@ function QuestionDetails() {
   };
 
   if (isLoading) {
-    return <div className={styles.wrapper}>Загрузка...</div>;
+    return <QuestionDetailsSkeleton/>;
   }
 
   if (error) {

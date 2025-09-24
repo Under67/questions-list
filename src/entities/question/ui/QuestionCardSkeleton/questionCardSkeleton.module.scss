@@ -9,6 +9,8 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    height: 57px;
+    background-color: #e3e3e3;
   }
 
   .title {
@@ -22,9 +24,9 @@
   }
 
   .skeleton {
-    background-color: #e0e0e0;
+    background-color: #474747;
     border-radius: 4px;
-    animation: pulse 1.5s infinite ease-in-out;
+    animation: pulse 1.0s infinite ease-in-out;
   }
 
   @keyframes pulse {
